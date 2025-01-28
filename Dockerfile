@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM alpine:latest
 
 # Create the directory explicitly
 RUN mkdir -p /docker-entrypoint-initdb.d
