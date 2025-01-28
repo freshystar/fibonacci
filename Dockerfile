@@ -1,5 +1,8 @@
 FROM alpine:latest
 
+# Install bash (if required for your script)
+RUN apk add --no-cache bash
+
 # Create the directory explicitly
 RUN mkdir -p /docker-entrypoint-initdb.d
 
