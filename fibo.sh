@@ -1,6 +1,6 @@
 #!/bin/bash
 
-generate_fibonacci() {
+generate_fibonaci() {
 
       a=0
       b=1
@@ -23,6 +23,6 @@ while true; do
     fi
 done
 
-generate_fibonacci "$n"
+generate_fibonaci "$n"
 
 
